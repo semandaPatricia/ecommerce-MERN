@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
 import { useState } from "react";
@@ -5,7 +6,8 @@ import { useState } from "react";
 const NavBar = () => {
   const[menu,setMenu] = useState("shop")
   return (
-    <nav className="flex bg-black text-white  items-center p-4 justify-around ">
+    <header className="">
+<nav className="flex bg-black text-white  items-center p-4 justify-around ">
       <div>
         <h1 className="text-blue-500"> GONE</h1>
       </div>
@@ -19,12 +21,13 @@ const NavBar = () => {
       </div >
       <div className="flex gap-5">
       <Link to="/cart"><ShoppingCart size={32} /></Link>
-      <button className="md:bg-blue-500 md:hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Login
-      </button>
+    <Link to="/login" > <button className="md:bg-blue-500 md:hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Login</button></Link>  
+      
       </div>
       
     </nav>
+    </header>
+    
   );
 };
 

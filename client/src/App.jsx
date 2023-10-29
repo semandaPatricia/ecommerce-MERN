@@ -9,6 +9,7 @@ import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
 
 import  NavBar  from "./components/NavBar";
+
 import PrivateRoute from './components/PrivateRoute';
 import './App.css'
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <BrowserRouter>
     {/* header */}
     <NavBar />
+  
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/men' element={<Men />} />

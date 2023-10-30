@@ -1,75 +1,75 @@
-const data_product = [
-    {
-      id: 1,
-      name: 'Elegant Blouse',
-      image: 'elegant_blouse.jpg',
-      new_price: 59.99,
-      old_price: 79.99,
-    },
-    {
-      id: 2,
-      name: 'Casual Chic Blouse',
-      image: 'casual_chic_blouse.jpg',
-      new_price: 34.95,
-      old_price: 49.99,
-    },
-    {
-      id: 3,
-      name: 'Striped Classic Blouse',
-      image: 'striped_classic_blouse.jpg',
-      new_price: 45.50,
-      old_price: 59.99,
-    },
-    {
-      id: 4,
-      name: 'Floral Print Blouse',
-      image: 'floral_print_blouse.jpg',
-      new_price: 39.99,
-      old_price: 54.99,
-    },
-    {
-      id: 5,
-      name: 'Ruffled Sleeve Blouse',
-      image: 'ruffled_sleeve_blouse.jpg',
-      new_price: 29.99,
-      old_price: 39.99,
-    },
-    {
-      id: 6,
-      name: 'Lace Detail Blouse',
-      image: 'lace_detail_blouse.jpg',
-      new_price: 55.00,
-      old_price: 69.99,
-    },
-    {
-      id: 7,
-      name: 'Boho Style Blouse',
-      image: 'boho_style_blouse.jpg',
-      new_price: 42.99,
-      old_price: 59.99,
-    },
-    {
-      id: 8,
-      name: 'Tie Neck Blouse',
-      image: 'tie_neck_blouse.jpg',
-      new_price: 37.50,
-      old_price: 49.99,
-    },
-    {
-      id: 9,
-      name: 'Polka Dot Blouse',
-      image: 'polka_dot_blouse.jpg',
-      new_price: 31.99,
-      old_price: 44.99,
-    },
-    {
-      id: 10,
-      name: 'Satin Finish Blouse',
-      image: 'satin_finish_blouse.jpg',
-      new_price: 64.99,
-      old_price: 89.99,
-    },
-  ];
+const dataProduct = [
+  {
+    id: 1,
+    name: 'Elegant Blouse',
+    image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&q=80&w=1548&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 59.99,
+    old_price: 79.99,
+  },
+  {
+    id: 2,
+    name: 'Casual Chic Blouse',
+    image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&q=80&w=1548&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 34.95,
+    old_price: 49.99,
+  },
+  {
+    id: 3,
+    name: 'Striped Classic Blouse',
+    image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&q=80&w=1548&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 45.50,
+    old_price: 59.99,
+  },
+  {
+    id: 4,
+    name: 'Floral Print Blouse',
+    image: 'https://images.unsplash.com/photo-1589734750443-06dbd51c0447?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 39.99,
+    old_price: 54.99,
+  },
+  {
+    id: 5,
+    name: 'Ruffled Sleeve Blouse',
+    image: 'https://images.unsplash.com/photo-1589734750443-06dbd51c0447?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 29.99,
+    old_price: 39.99,
+  },
+  {
+    id: 6,
+    name: 'Lace Detail Blouse',
+    image: 'https://images.unsplash.com/photo-1589734750443-06dbd51c0447?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 55.00,
+    old_price: 69.99,
+  },
+  {
+    id: 7,
+    name: 'Boho Style Blouse',
+    image: 'https://images.unsplash.com/photo-1589734750443-06dbd51c0447?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 42.99,
+    old_price: 59.99,
+  },
+  {
+    id: 8,
+    name: 'Tie Neck Blouse',
+    image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&q=80&w=1548&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 37.50,
+    old_price: 49.99,
+  },
+  {
+    id: 9,
+    name: 'Polka Dot Blouse',
+    image: 'https://images.unsplash.com/photo-1612889002991-fbfaf775d231?auto=format&fit=crop&q=80&w=1587&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 31.99,
+    old_price: 44.99,
+  },
+  {
+    id: 10,
+    name: 'Satin Finish Blouse',
+    image: 'https://images.unsplash.com/photo-1612889002991-fbfaf775d231?auto=format&fit=crop&q=80&w=1587&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    new_price: 64.99,
+    old_price: 89.99,
+  },
+];
   
-  export default data_product
+  export default dataProduct
   

@@ -1,11 +1,18 @@
 import React from 'react'
 import  Hero from "../components/hero/Hero";
-import Popular from "../components/Popular"
+import Offers from '../components/Offers';
+import Newsletter from '../components/NewsLetter'
+//import Footer from '../components/Footer'
+//import Popular from "../components/Popular"
+
 const Home = () => {
   return (
     <div>
       <Hero/>
-      <Popular/>
+      <Offers/>
+      <Newsletter/>
+   
+      
       </div>
   )
 }

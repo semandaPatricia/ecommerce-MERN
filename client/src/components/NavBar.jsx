@@ -9,7 +9,7 @@ const NavBar = () => {
     <header className="">
 <nav className="flex bg-black text-white  items-center p-4 justify-around ">
       <div>
-        <h1 className="text-blue-500"> GONE</h1>
+        <h1 className="text-blue-500"> SNUBBY</h1>
       </div>
       <div className="hidden md:flex p-2 mr-4 flex-row gap-4 items-center cursor-pointer"> 
         <Link to="/" onClick={()=>{setMenu("shop")}}>Shop{menu === "shop" ?<hr className="h-px bg-red-300 my-2 border-0 dark:bg-gray-700 w"/> :<></>} </Link>
